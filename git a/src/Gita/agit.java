@@ -13,7 +13,7 @@ public class agit {
 		driver.findElement(By.id("email")).sendKeys("7418499458");
 		driver.findElement(By.id("pass")).sendKeys("1017485");
 		driver.findElement(By.name("login")).click();
-
+driver.close();
 	}
 
 }
